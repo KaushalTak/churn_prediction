@@ -4,14 +4,17 @@ import pytest
 #import churn_library_solution as cls
 from churn_library import import_data
 
-logging.basicConfig(
-    filename='./logs/churn_library.log',
-    level=logging.INFO,
-    filemode='w',
-    format='%(name)s - %(levelname)s - %(message)s')
+
+@pytest.fixture
+def logger():
+    logging.basicConfig(
+        filename='./logs/churn_library.log',
+        level=logging.INFO,
+        filemode='w',
+        format='%(name)s - %(levelname)s - %(message)s')
 
 
-def test_import():
+def test_import(logger):
     '''
     test data import - this example is completed for you to assist with the other test functions
     '''
