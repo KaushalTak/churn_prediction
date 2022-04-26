@@ -1,1 +1,14 @@
 root - INFO - Testing import_data: SUCCESS
+root - INFO - Testing import_data: File has rows and columns
+root - INFO - Testing perform_eda: SUCCESS - Received dataframe from cache
+numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+root - INFO - Testing perform_eda: SUCCESS - All EDA files generated
+root - INFO - Testing encoder_helper: SUCCESS - Received dataframe from cache
+root - INFO - Testing encoder_helper: SUCCESS - encoder_helper ran without error
+root - INFO - Testing encoder_helper: SUCCESS - encoder_helper created all columns
+root - INFO - Testing perform_feature_engineering: SUCCESS - Received dataframe from cache
+root - INFO - Testing perform_feature_engineering: SUCCESS - splitted data passed sanity check
+root - INFO - Testing train_models: SUCCESS, got training testing data
+root - INFO - Testing train_models: SUCCESS, train_models function ran without error
+root - INFO - Testing train_models: SUCCESS - models and plots generated.
