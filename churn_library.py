@@ -213,7 +213,7 @@ def _plot_and_save_roc_curves(lr_model, rfc_model, x_test, y_test):
     plot_roc_curve(rfc_model, x_test, y_test, ax=ax, alpha=0.8)
     lrc_plot.plot(ax=ax, alpha=0.8)
     plt.savefig('{}roc_plots.png'.format(
-        'MODEL_RESULT_PLOTS_PATH'), bbox_inches="tight")
+        MODEL_RESULT_PLOTS_PATH), bbox_inches="tight")
 
 
 def classification_report_image(y_train,
